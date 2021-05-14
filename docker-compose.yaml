@@ -1,0 +1,9 @@
+services: 
+  db: 
+    image: mongo:latest
+    ports: 
+      - "27017:27017"
+    volumes: 
+      - '/home/axele/Code/Docker/volumes/medical-record-backend:/data/db'
+
+
